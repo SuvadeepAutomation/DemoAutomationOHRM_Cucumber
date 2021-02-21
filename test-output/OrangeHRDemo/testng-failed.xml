@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRDemo]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="com.implementation.selenium.TestCases.TestLoginPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginCheck"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.implementation.selenium.TestCases.TestLoginPage -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [OrangeHRDemo] -->
